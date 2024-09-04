@@ -12,3 +12,8 @@ steps:
 - script: | 
     ./my_program
   displayName: 'run my_program'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.SourcesDirectory)'
+    artifactName: my_program_build
