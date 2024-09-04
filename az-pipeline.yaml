@@ -6,5 +6,5 @@ pool:
 
 steps:
 - script: | 
-    ls -lah
+    gcc main.c -Wall -o my_program
   displayName: 'make'
