@@ -10,5 +10,5 @@ steps:
   displayName: 'compile'
 
 - script: | 
-    ./my_rogram
+    ./my_program
   displayName: 'run my_program'
