@@ -6,5 +6,5 @@ pool:
 
 steps:
 - script: | 
-    make
+    ls -lah
   displayName: 'make'
