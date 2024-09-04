@@ -7,4 +7,8 @@ pool:
 steps:
 - script: | 
     gcc main.c -Wall -o my_program
-  displayName: 'make'
+  displayName: 'compile'
+
+- script: | 
+    ./my_rogram
+  displayName: 'run my_program'
